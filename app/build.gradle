@@ -21,6 +21,7 @@ android {
 }
 
 dependencies {
+  implementation project(':lib')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
   implementation "com.android.support:appcompat-v7:$versions.androidSupportLib"
   implementation "io.reactivex.rxjava2:rxjava:$versions.rxJava"
